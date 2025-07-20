@@ -2,89 +2,77 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>DMI BUILD</title>
-  <style>
-    body {
-      background-color: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    header {
-      background-color: #1a1a1a;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 10px 20px;
-    }
-    header img {
-      height: 80px;
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin-left: 20px;
-      font-weight: bold;
-    }
-    section {
-      padding: 40px 20px;
-    }
-    h2 {
-      color: #e60000;
-    }
-    .buttons {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-    .buttons a {
-      background-color: #25D366;
-      color: white;
-      padding: 10px 15px;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMI BUILD</title>
+    <style>
+        body {
+            background-color: #000;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #111;
+            padding: 10px;
+            text-align: center;
+        }
+        header img {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+        }
+        nav {
+            background-color: #222;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        h2 {
+            color: red;
+        }
+        iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <img src="logo.png" alt="Logo DMI BUILD" />
+    <header>
+        <img src="logo-dmi.png" alt="Logo DMI BUILD">
+    </header>
     <nav>
-      <a href="#reparacion">Reparación</a>
-      <a href="#importacion">Importación</a>
-      <a href="#contacto">Contacto</a>
+        <a href="#reparacion">Reparación Diesel</a>
+        <a href="#importacion">Importación</a>
+        <a href="#contacto">Contacto</a>
     </nav>
-  </header>
-
-  <section id="reparacion">
-    <h2>Reparación Diesel</h2>
-    <p>En <strong style="color:red;">DMI BUILD</strong> nos especializamos en reparaciones de alto nivel para <strong>maquinaria industrial, generadores diesel, maquinaria agrícola y camiones</strong>.
-    Trabajamos con grandes marcas como <em>Komatsu y Kaufmann</em>, ofreciendo soporte a empresas que exigen rendimiento y confiabilidad.</p>
-    <p>Contamos con herramientas especializadas para sistemas <strong>HEUI, Common Rail, bombas inyectoras e inyectores diesel</strong>. Nuestro enfoque es industrial, aunque también atendemos proyectos especiales en vehículos livianos según evaluación.</p>
-  </section>
-
-  <section id="importacion">
-    <h2>Importación de Repuestos</h2>
-    <p>Traemos repuestos de <strong>Estados Unidos, Europa y Japón</strong>. Trabajamos solo con <span style="color:red;">marcas originales y alternativas de alta calidad</span>, evitando piezas de origen chino, para garantizar el mejor rendimiento y durabilidad en cada reparación.</p>
-    <p>Importamos piezas para autos <strong>FORD, BMW, NISSAN, TOYOTA</strong> y muchas otras marcas.</p>
-  </section>
-
-  <section id="contacto">
-    <h2>Contacto</h2>
-    <p>📱 WhatsApp Cotizaciones: <a href="https://wa.me/56954631345" style="color:#1e90ff;">+56 9 5463 1345</a></p>
-    <p>📍 <a href="https://maps.app.goo.gl/oFRdeej1xGnGedRo6" target="_blank" style="color:#1e90ff;">Ver ubicación en Google Maps</a></p>
-  </section>
-
-  <div class="buttons">
-    <a href="https://wa.me/56954631345?text=Hola%2C%20necesito%20consultar%20por%20repuestos" target="_blank">📦 Cotizar Repuestos</a>
-    <a href="https://wa.me/56954631345?text=Hola%2C%20tengo%20una%20consulta%20técnica%20sobre%20diesel" target="_blank">🔧 Consultas Diesel</a>
-  </div>
+    <section id="reparacion">
+        <h2>Reparación Diesel</h2>
+        <p>En <strong>DMI BUILD</strong> nos especializamos en reparaciones de alto nivel para <strong>maquinaria industrial, generadores diesel, maquinaria agrícola y camiones</strong>.</p>
+    </section>
+    <section id="importacion">
+        <h2>Importación de Repuestos</h2>
+        <p>Traemos repuestos de <strong>Estados Unidos, Europa y Japón</strong>. Trabajamos solo con <span style="color: red;">marcas originales y alternativas de alta calidad</span>.</p>
+    </section>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Contáctanos directamente para cotizaciones, diagnósticos o consultas técnicas.</p>
+        <ul>
+            <li>WhatsApp Cotizaciones: <a href="https://wa.me/56954631345" target="_blank" style="color: #00e676;">+56 9 5463 1345</a></li>
+        </ul>
+        <iframe src="https://maps.google.com/maps?q=Colonia%20Kennedy%20Champa%20Parcela%20139%20Paine&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+    </section>
 </body>
 </html>
